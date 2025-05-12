@@ -17,7 +17,7 @@ export default function SophrologiePage() {
         confiance ou besoin de recentrage.
       </p>
 
-      {/* Les bienfaits de la sophrologie */}
+      {/* Les bienfaits de la sophrologie */} 
       <h2 className="text-3xl font-semibold text-marron-doux mb-4">
         Les Bienfaits de la Sophrologie
       </h2>
@@ -90,7 +90,7 @@ export default function SophrologiePage() {
       {/* Déroulement d'une séance */}
       <div className="mt-8">
         <p className="text-lg text-marron-doux mb-4">
-          La peur de l'inconnu est naturelle, mais elle ne doit pas
+          La peur de l&apos;inconnu est naturelle, mais elle ne doit pas
           empêcher de faire le premier pas. Pour en savoir plus et découvrir
           concrètement comment se  
           <a
@@ -105,7 +105,7 @@ export default function SophrologiePage() {
       {/* Appel à l'action */}
       <div className="mt-8">
         <h2 className="text-2xl font-semibold text-marron-doux mb-2">
-          🌟 Envie d’essayer ?
+          🌟 Envie d&apos;essayer ?
         </h2>
         <p className="text-lg text-marron-doux mb-4">
           Que ce soit par curiosité ou pour répondre à un besoin spécifique, la
