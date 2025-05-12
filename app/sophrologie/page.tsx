@@ -89,21 +89,17 @@ export default function SophrologiePage() {
 
       {/* Déroulement d'une séance */}
       <div className="mt-8">
-        {/* <h2 className="text-2xl font-semibold text-marron-doux mb-2">
-          Comment se déroule une séance ?
-        </h2> */}
         <p className="text-lg text-marron-doux mb-4">
-          La peur de l&apos;inconnu est naturelle, mais elle ne doit pas
+          La peur de l'inconnu est naturelle, mais elle ne doit pas
           empêcher de faire le premier pas. Pour en savoir plus et découvrir
-          concrètement comment se déroule une séance, cliquez simplement
-          ci-dessous.
+          concrètement comment se  
+          <a
+            href="/seance"
+            className="inline-block bg-vert-doux text-marron-doux font-bold px-2 underline decoration-2 hover:scale-105 transition-transform duration-300 ease-in-out"
+          >
+            déroule une séance
+          </a>
         </p>
-        <a
-          href="/seance"
-          className="bg-vert-fonce text-white font-semibold px-6 py-3 rounded-full shadow-md hover:bg-vert-doux transition"
-        >
-          Déroulement d&apos;une séance
-        </a>
       </div>
 
       {/* Appel à l'action */}

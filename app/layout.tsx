@@ -21,11 +21,10 @@ export default function RootLayout({ children }: RootLayoutProps) {
           style={{ backgroundImage: "url('/images/foret.jpeg')" }}
         ></div>
 
-        <nav className="bg-white p-4 shadow-md flex justify-between items-center">
+        <nav className="fixed top-0 left-0 w-full bg-white p-4 shadow-md flex justify-between items-center z-10">
           <div className="text-lg font-bold text-vert-fonce">
-
-            {/* a finir : police + taille + centré */}
-            <span className="text-2l">Raji Elmasri</span>  <br /> <span className="">Sophrologue</span>
+            {/* À finir : police + taille + centré */}
+            <span className="text-2l">Raji Elmasri</span> <br /> <span className="">Sophrologue</span>
           </div>
 
           {/* Menu desktop */}
@@ -43,7 +42,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               href="/seance"
               className="text-vert-fonce hover:text-marron-doux"
             >
-              Déroulement d&apos;une séance
+              Déroulement d'une séance
             </Link>
             <Link
               href="/sophrologue"
@@ -67,7 +66,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
         {/* Menu mobile */}
         {menuOpen && (
-          <div className="md:hidden flex flex-col items-center bg-white p-4 space-y-4">
+          <div className="md:hidden fixed top-[72px] left-0 w-full flex flex-col items-center bg-white p-4 space-y-4 z-20">
             <Link
               href="/"
               className="text-vert-fonce hover:text-marron-doux"
@@ -87,7 +86,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               className="text-vert-fonce hover:text-marron-doux"
               onClick={() => setMenuOpen(false)}
             >
-              Déroulement d&apos;une séance
+              Déroulement d'une séance
             </Link>
             <Link
               href="/sophrologue"
@@ -106,7 +105,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
         )}
 
-        <main className="p-6 max-w-4xl mx-auto">{children}</main>
+        <main className="p-6 max-w-4xl mx-auto pt-20">{children}</main>
       </body>
     </html>
   );
