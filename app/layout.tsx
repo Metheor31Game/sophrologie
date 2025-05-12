@@ -42,7 +42,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               href="/seance"
               className="text-vert-fonce hover:text-marron-doux"
             >
-              Déroulement d'une séance
+              Déroulement d&apos;une séance
             </Link>
             <Link
               href="/sophrologue"
@@ -86,7 +86,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
               className="text-vert-fonce hover:text-marron-doux"
               onClick={() => setMenuOpen(false)}
             >
-              Déroulement d'une séance
+              Déroulement d&apos;une séance
             </Link>
             <Link
               href="/sophrologue"
