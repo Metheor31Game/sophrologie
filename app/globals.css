@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+:root {
+  --font-nunito: 'Nunito', sans-serif;
+}
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: 'Merriweather', serif;
-  background-color: #d6a731; /* Fond creme clair */
+  font-family: var(--font-nunito-400);
+  background-color: #d6a731; /* Fond crème clair */
   color: #91662a; /* Marron foncé */
   padding-top: 20px;
 }

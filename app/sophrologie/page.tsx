@@ -92,13 +92,14 @@ export default function SophrologiePage() {
         <p className="text-lg text-marron-doux mb-4">
           La peur de l&apos;inconnu est naturelle, mais elle ne doit pas
           empêcher de faire le premier pas. Pour en savoir plus et découvrir
-          concrètement comment se  
+          concrètement comment se déroule une séance, 
           <a
             href="/seance"
             className="inline-block bg-vert-doux text-marron-doux font-bold px-2 underline decoration-2 hover:scale-105 transition-transform duration-300 ease-in-out"
           >
-            déroule une séance
+            cliquez ici.
           </a>
+          
         </p>
       </div>
 

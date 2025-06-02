@@ -4,6 +4,14 @@ import "./globals.css";
 import Link from "next/link";
 import { ReactNode, useState } from "react";
 import { Menu, X } from "lucide-react";
+import { Nunito } from "next/font/google";
+
+const nunito = Nunito({
+  subsets: ['latin'],
+  weight: ['400', '600', '800'],
+  variable : '--font-nunito',
+  display: 'swap',
+});
 
 type RootLayoutProps = {
   children: ReactNode;
@@ -13,7 +21,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <html lang="fr">
+    <html lang="fr" className={nunito.variable}>
       <body className="bg-blanc-casse text-foreground font-chill relative">
         {/* 🔹 Image de fond qui reste fixe en arrière-plan */}
         <div
@@ -24,7 +32,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <nav className="fixed top-0 left-0 w-full bg-white p-4 shadow-md flex justify-between items-center z-10">
           <div className="text-lg font-bold text-vert-fonce">
             {/* À finir : police + taille + centré */}
-            <span className="text-2l">Raji Elmasri</span> <br /> <span className="">Sophrologue</span>
+            <span className="text-2l font-sans">Raji Elmasri</span> <br /> <span className="font-sans">Sophrologue</span>
           </div>
 
           {/* Menu desktop */}
