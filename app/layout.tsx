@@ -36,7 +36,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
           </div>
 
           {/* Menu desktop */}
-          <div className="hidden md:flex space-x-6">
+          <div className="text-xl hidden md:flex space-x-6">
             <Link href="/" className="text-vert-fonce hover:text-marron-doux">
               Accueil
             </Link>

@@ -1,7 +1,7 @@
 export default function SophrologiePage() {
   return (
-    <div className="bg-blanc-casse rounded-xl text-center p-6">
-      <h1 className="text-4xl font-bold text-marron-doux mb-6">
+    <div className="text-lg bg-blanc-casse rounded-xl text-center p-6">
+      <h1 className="text-3xl font-bold text-marron-doux mb-6">
         Découvrez la Sophrologie : Une Clé vers l&apos;Équilibre Intérieur
       </h1>
 
@@ -18,7 +18,7 @@ export default function SophrologiePage() {
       </p>
 
       {/* Les bienfaits de la sophrologie */} 
-      <h2 className="text-3xl font-semibold text-marron-doux mb-4">
+      <h2 className="text-2xl font-semibold text-marron-doux mb-4">
         Les Bienfaits de la Sophrologie
       </h2>
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-3xl mx-auto">
@@ -50,7 +50,7 @@ export default function SophrologiePage() {
       </div>
 
       {/* Domaines d'application */}
-      <h2 className="text-3xl font-semibold text-marron-doux mb-4">
+      <h2 className="text-2xl font-semibold text-marron-doux mb-4">
         Pour qui ?
       </h2>
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-3xl mx-auto">

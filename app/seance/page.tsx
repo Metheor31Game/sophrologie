@@ -1,12 +1,11 @@
 export default function SeancePage() {
   return (
-    <div className="bg-blanc-casse rounded-xl text-center p-6">
-      <h1 className="text-4xl font-bold text-marron-doux mb-6">
+    <div className="text-lg bg-blanc-casse rounded-xl text-center p-6">
+      <h1 className="text-3xl font-bold text-marron-doux mb-6">
         Déroulement d&apos;une séance{" "}
       </h1>
 
       <div className="bg-beige-sable shadow-md rounded-xl p-6 mb-6 w-full max-w-3xl mx-auto">
-        <h2 className="text-3xl font-semibold text-marron-doux mb-4"></h2>
         <p className="text-vert-fonce leading-relaxed mb-4">
           Toute séance commence par un temps d’écoute où la personne exprime ses
           besoins et ses motivations.

@@ -1,7 +1,7 @@
 export default function HomePage() {
   return (
     <div className="bg-blanc-casse rounded-xl text-center p-6">
-      <h1 className="font-nunito text-4xl font-bold text-marron-doux mb-6">Raji Elmasri </h1>
+      <h1 className="font-nunito text-3xl font-bold text-marron-doux mb-6">Raji Elmasri </h1>
 
       <p className="text-lg text-marron-doux leading-relaxed mb-6">
         Sophrologue diplômé de l&apos;ISSO

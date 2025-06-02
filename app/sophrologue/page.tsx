@@ -1,9 +1,9 @@
 export default function SophrologuePage() {
   return (
     <div className="bg-blanc-casse rounded-xl text-center p-6">
-      <h2 className="text-3xl font-semibold text-marron-doux mb-4">
+      <h1 className="text-3xl font-semibold text-marron-doux mb-4">
         Mon Parcours
-      </h2>
+      </h1>
       <div className="bg-beige-sable p-6 rounded-xl shadow-md max-w-3xl mx-auto">
         <p className="text-lg text-vert-fonce leading-relaxed">
           Étant depuis toujours intéressé par les relations humaines, j’ai
